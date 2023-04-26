@@ -1,0 +1,96 @@
+body {
+  background-color: #7fc3cc;
+  font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.625;
+  min-height: 100vh;
+  display: flex;
+  direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: #0195a6;
+  text-decoration: none;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 1.625em;
+}
+
+header {
+  display: flex;
+  direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #f9f9f9;
+  border-top: 1px solid #ddd;
+  color: #666;
+  font-size: 12px;
+  line-height: 2.2em;
+  padding: 2em 5em;
+  text-align: center;
+}
+
+.homepage {
+  background-color: #fff;
+  min-height: 100rem;
+  max-width: 65rem;
+}
+
+.entry-title {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-bottom: 0.3em;
+  padding-top: 15px;
+}
+
+.header-img {
+  margin: 2rem;
+}
+
+.navbar {
+  background-color: #0195a6 !important;
+}
+
+.navbar-brand {
+  color: #000;
+}
+
+.main {
+  margin: 2rem 4rem;
+}
+
+.picture-gallery {
+  width: 80%;
+  margin: 5% 10%;
+}
+
+.carousel-caption {
+  background-color: #7fc3cc;
+  opacity: 90%;
+  padding: 5px !important;
+}
+
+.carousel-caption p {
+  margin: 10px !important;
+}
+
+.footer-copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
