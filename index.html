@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>ExoGENI is Archived</title>
+</head>
+<body>
+  <div class="homepage">
+    <header id="branding" role="banner">
+      <div class="header-img">
+        <a href="http://www.exogeni.net/">
+          <img src="./img/exogeni-logo.png">
+        </a>
+      </div>
+      <div class="alert alert-warning mr-4" role="alert">
+        <b>NOTE:</b><br>
+        ExoGENI has ceased operations as of Dec 2021. This site is maintained as a historical record of these activities. If you are looking for the old website, old wiki or mail archives, visit the <a href="https://archive.org/web/" target="_blank" rel="noreferrer">Way Back Machine</a>.
+      </div>
+    </header>
+    <nav class="navbar navbar-light bg-light">
+      <span class="mb-0 ml-5">
+        <b>Home</b>
+      </span>
+    </nav>
+    <div class="main">
+      <h1 class="entry-title">
+        Welcome To ExoGENI
+      </h1>
+      <p>
+        ExoGENI began in 2008 as a joint effort between Duke University (Prof. Jeff Chase) and RENCI to adapt the ORCA (Open Resource Control Architecture) IaaS software for <a href="https://www.geni.net/" target="_blank" rel="noreferrer">GENI</a> needs. The effort grew to include deploying hardware to multiple sites and thus ExoGENI testbed was born. It operated as part of the GENI testbed federation starting in 2012 until it was decommissioned in December 2021. This site is maintained as a historical record of these activities. If you are looking for the old website, old wiki or mail archives, visit the  <a href="https://archive.org/web/" target="_blank" rel="noreferrer">Way Back Machine</a>.
+      </p>
+      <p>
+        ExoGENI was first to link GENI to two advances in virtual infrastructure services outside of GENI: open cloud computing (OpenStack) and dynamic circuit fabrics. ExoGENI orchestrated a federation of independent cloud sites located across multiple university campuses in the US and circuit providers, like (the now defunct) NLR (National Lambda Rail) and <a href="https://internet2.edu/" target="_blank" rel="noreferrer">Internet2</a> through their native IaaS API interfaces. These resources were made available to the international research community to run a variety of experiments, including smart power grids, complex computational workflows, distributed multimedia streaming, novel data protocols, distributed cloud orchestration and many more. A large number of papers credited ExoGENI for their results. 
+      </p>
+      <p>
+        ExoGENI was a widely distributed networked infrastructure-as-a-service (NIaaS) platform geared towards experimentation and computational tasks. It employed sophisticated topology embedding algorithms that take advantage of semantic resource descriptions using NDL-OWL – a variant of <a href="https://staff.fnwi.uva.nl/p.grosso/INDL.html" target="_blank" rel="noreferrer">Network Description Language</a>.
+      </p>
+      <p>
+        Individual ExoGENI deployments consisted of cloud sites on host campuses, linked with national research networks through programmable exchange points. The ExoGENI sites and control software were enabled for flexible networking operations using traditional VLAN-based switching and OpenFlow. Using ORCA (Open Resource Control Architecture) control framework software, ExoGENI offered a powerful unified hosting platform for deeply networked, multi-domain, multi-site cloud applications. 
+      </p>
+      <p>
+        <strong><b>ExoGENI was powered by the following software components:</b></strong>
+      </p>
+      <p>
+        <ul>
+          <li>
+            <a href="https://github.com/RENCI-NRIG/orca5" target="_blank" rel="noreferrer">ORCA - core control framework</a>
+          </li>
+          <li>
+            <a href="https://github.com/RENCI-NRIG/ahab" target="_blank" rel="noreferrer">Ahab -  a library for programmatically interacting with ORCA to create and manage slices</a>
+          </li>
+          <li>
+            <a href="https://github.com/RENCI-NRIG/flukes" target="_blank" rel="noreferrer">Flukes -  a GUI for interacting with ORCA to create and manage slices</a>
+          </li>
+          <li>
+            <a href="https://github.com/RENCI-NRIG/nodeagent2" target="_blank" rel="noreferrer">NodeAgent2 – plugin-based system for ORCA to program with various substrates</a>
+            <ul>
+              <li>
+                <a href="https://github.com/RENCI-NRIG/na2-oess-plugin/" target="_blank" rel="noreferrer">NA2 OESS plugin for interacting with Internet2 OESS system</a>
+              </li>
+              <li>
+                <a href="https://github.com/RENCI-NRIG/na2-oscars-plugin/" target="_blank" rel="noreferrer">NA2 OSCARS plugin for interacting with ESnet OSCARS</a>
+              </li>
+              <li>
+                <a href="https://github.com/RENCI-NRIG/na2-exec-nsi-scripts" target="_blank" rel="noreferrer">NA2 NSI plugin for interacting with NSI-based networks</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="https://github.com/RENCI-NRIG/COMET-Accumulo" target="_blank" rel="noreferrer">COMET metadata service</a>
+          </li>
+          <li>
+            <a href="https://github.com/RENCI-NRIG/imageproxy" target="_blank" rel="noreferrer">ImageProxy supporting the Bring Your Own Image functionality</a>
+          </li>
+          <li>
+            <a href="https://github.com/RENCI-NRIG/pequod" target="_blank" rel="noreferrer">Pequod administrator tool for ORCA</a>
+          </li>
+          <li>
+            <a href="https://github.com/RENCI-NRIG/image-tools" target="_blank" rel="noreferrer">Image snapshotting tools for VMs</a>
+          </li>
+          <li>
+            <a href="https://github.com/RENCI-NRIG/blowhole" target="_blank" rel="noreferrer">Blowhole pub-sub based system supporting event messaging in ORCA</a>
+          </li>
+          <li>
+            <a href="https://github.com/RENCI-NRIG/blowhole" target="_blank" rel="noreferrer">Actor registry for ORCA actors</a>
+          </li>
+          <li>
+            <a href="https://github.com/RENCI-NRIG/ndl-conversion" target="_blank" rel="noreferrer">RSpec-NDL converter for ORCA-GENI API compatibility</a>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <strong><b>The success of ExoGENI was made possible by the contributions of the following people over its lifetime: </b></strong>
+      </p>
+      <p>
+        <ul>
+          <li>Jeff Chase (Duke University)</li>
+          <li>Ilya Baldin (RENCI)</li>
+          <li>Aydan Yumerefendi (Microsoft)</li>
+          <li>Yufeng Xin (RENCI)</li>
+          <li>Anirban Mandal (RENCI)</li>
+          <li>Paul Ruth (RENCI)</li>
+          <li>Mert Cevik (RENCI)</li>
+          <li>Chris Heermann (Fidelity Investments)</li>
+          <li>Jonathan Mills (NASA Center for Climate Simulation)</li>
+          <li>Victor Orlikowski (Duke University)</li>
+          <li>Cong Wang (RENCI)</li>
+          <li>Komal Thareja (RENCI)</li>
+          <li>Erica Fu (RENCI)</li>
+        </ul>
+      </p>
+      <div id="exogeniPictureGallery" class="carousel slide picture-gallery" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#exogeniPictureGallery" data-slide-to="0" class="active"></li>
+          <li data-target="#exogeniPictureGallery" data-slide-to="1"></li>
+          <li data-target="#exogeniPictureGallery" data-slide-to="2"></li>
+          <li data-target="#exogeniPictureGallery" data-slide-to="3"></li>
+          <li data-target="#exogeniPictureGallery" data-slide-to="4"></li>
+          <li data-target="#exogeniPictureGallery" data-slide-to="5"></li>
+          <li data-target="#exogeniPictureGallery" data-slide-to="6"></li>
+          <li data-target="#exogeniPictureGallery" data-slide-to="7"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="./img/slide-1.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ExoGENI/ORCA Team Members (ca. 2016)</h5>
+              <p>Yufeng Xin, Anirban Mandal, Chris Heermann, Ilya Baldin, Paul Ruth, Jeff Chase, Jonathan Mills, Victor Orlikowski</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/slide-2.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>US Ignite recognizes researchers from NC State and RENCI for innovative app for monitoring power grids (ca. 2013)</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/slide-3.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Anirban Mandal and Yufeng Xin developing ORCA demo (ca. 2010)</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/slide-4.jpg" alt="Fourth slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Paul Ruth demonstrating storm surge computational workflows on GENI at GEC-22 (ca. 2015)</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/slide-5.jpg" alt="Fifth slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Paul Ruth and Anirban Mandal demonstrating computational science workflows on ExoGENI at SC12</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/slide-6.jpg" alt="Sixth slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Paul Ruth and Yufeng Xin preparing an ORCA Control Software demo (ca. 2012)</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/slide-7.jpg" alt="Seventh slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Jonathan Mills putting together the first ExoGENI rack at RENCI (ca. 2012)</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="./img/slide-8.jpg" alt="Eighth slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Anirban Mandal monitoring demos at GEC-22 (ca. 2015)</h5>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#exogeniPictureGallery" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#exogeniPictureGallery" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <footer>
+      <div class="exogeni-logo">
+        <a href="http://www.exogeni.net"><img src="./img/footer-logo.png" alt="" width="60" height="61"/></a>
+      </div>
+      <div class="footer-copyright">
+        <span>
+          ©2022 ExoGENI. All rights reserved.
+        </span>
+      </div>
+      <div class="geni-logo">
+        <a href="http://www.geni.net/" target="_blank"><img src="./img/geni-logo.png" alt="GENI" width="60" height="61"/></a>
+      </div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
